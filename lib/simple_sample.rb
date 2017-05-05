@@ -1,0 +1,3 @@
+module SimpleSample
+  # Your code goes here...
+end
