@@ -7,7 +7,6 @@ module SimpleSample
     def sample(amount = 1)
       raise ArgumentError, "Amount must be an integer!" unless amount.is_a? Integer
       raise ArgumentError, "Must sample at least one record!" if amount < 1
-      order(sample_method).first if amount == 1
       order(sample_method).limit(amount)
     end
 

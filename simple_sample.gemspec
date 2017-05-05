@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.version     = SimpleSample::VERSION
   s.authors     = ["Kevin Rocker"]
   s.email       = ["kevin.j.rocker@gmail.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of SimpleSample."
-  s.description = "TODO: Description of SimpleSample."
+  s.homepage    = "https://kevinrocker.com"
+  s.summary     = "Extend ActiveRecord with .sample"
+  s.description = "Add a .sample method to all ActiveRecord models"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
